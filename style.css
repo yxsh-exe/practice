@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: "nunito";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 99;
+  position: fixed;
+  /* background-color: white; */
+  /* background-color: red; */
+}
+img {
+  height: 110px;
+  width: 110px;
+}
+#nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nav3 {
+  display: flex;
+}
+#nav2 h3 {
+  font-size: 30px;
+  font-weight: 650;
+  text-transform: uppercase;
+  padding: 0 5px;
+  margin: 0 30px;
+}
+
+#nav button {
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: burlywood;
+  padding: 5px 20px;
+}
+#nav button:hover {
+  background-color: black;
+  color: white;
+  transition: all ease 0.5s;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#page1 h2 {
+  font-size: 60px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#page1 p {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline 2px;
+  margin: 15px;
+}
+
+#page1 h1 {
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 9px 15px;
+  border-radius: 40px;
+  background-color: tan;
+  color: white;
+}
+
+#page1 h1:hover {
+  background-color: black;
+  color: white;
+  transition: all ease 0.3s;
+}
+#page2 {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* background-color: red; */
+  padding: 50px 150px;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+#page2 img {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  bottom: 64px;
+  margin: 10px 10px;
+}
+#page2 h2 {
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px;
+}
+#page2 p {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin: 10px 10px;
+  /* text-decoration: underline; */
+}
+#page2-ab {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 100px;
+  /* margin: 10px 10px ; */
+  gap: 50px;
+}
+#page2-ab img {
+  height: 250px;
+  width: 200px;
+}
+#ab1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+#ab2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+#ab3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+#ab1 h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+#ab2 h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+#ab3 h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
